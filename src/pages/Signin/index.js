@@ -2,6 +2,12 @@ import React from 'react';
 
 export default function SignUp() {
     return (
-        <h1> Login </h1>
+        <>
+            <form>
+                <input type="email" placeholder="Seu login"/>
+                <input type="password" placeholder="Sua senha"/>
+                <button type="submit">Acessar </button>
+            </form>
+        </>
     )
 }
